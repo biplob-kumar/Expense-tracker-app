@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express tracker App </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+
+<h2 class="h">Express Tracker App</h2>
+
+<div class="container">
+    <h4> your blance</h4>
+    <h1 id="blance">$0.00</h1>
+
+    <div class="income-expensive-content">
+       <div>
+        <h4>Income</h4>
+        <p id="mony-plus" class="mony-plus">
+            +$0.00
+           </p>
+       </div>
+       <div>
+        <h4>Expense</h4>
+        <p id="mony-minus" class="mony-minus">
+            -$0.00
+           </p>
+       </div>
+    </div>
+    <h3>History</h3>
+    <ul id="list" class="list" >
+        <li id="" class="">
+            Cash <span>-$400</span>  <button class="delete-btn" >X</button>
+        </li>
+    </ul>
+    <h3>Add new Transition</h3>
+    <form id="form">
+  <div class="from-control">
+    <label for="Text">Text</label>
+    <input type="text" id="text" placeholder="Enter Text....">
+  </div>
+  <div class="from-control">
+    <label for="Amount">Amount</label>
+    <input type="text" id="Number" placeholder="Enter Amount....">
+  </div>
+  <button class="btn " >All-Transition</button>
+    </form>
+</div>
+    
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
